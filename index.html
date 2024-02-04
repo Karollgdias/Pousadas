@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=El+Messiri:wght@400;500;600&family=Montserrat+Alternates:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CSS Karolline</title>
+</head>
+
+<body class="global-styles">
+    <div class="fadeIn">
+    <a href="https://www.whatsapp.com/">
+        <img src="./assets/whats.png" alt="Logo-whatsApp" class="whatsapp">
+    </a>
+    <main>
+        <header>
+            <div class="container-header">
+                <div class="overlay"></div>
+                <h1 class="pousada">Pousada Exemplo</h1>
+
+                <nav class="atalhos">
+                    <ul>
+                        <li><a href="#titulo-1">Sobre Nós</a></li>
+                        <li><a href="#titulo-2">História</a></li>
+                        <li><a href="#titulo-3">Diferenciais</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <section class="section-1">
+            <div class="design-fashion">
+                <h1 id="titulo-1">Pousada Exemplo</h1>
+
+                <p class="sobre-nos"> Situado em meio às belezas naturais do RS a <strong>Pousada Exemplo</strong> é
+                    cercado por rios e trilhas mágicas e tem uma ótima área de lazer.
+
+                    Possui uma área de lazer com piscina externa. Os hóspedes podem relaxar em um bar ao lado da piscina
+                    do estabelecimento ou em uma de nossas confortáveis espreguiçadeiras, além de várias outras áreas ao
+                    redor da pousada. </p>
+                <div fig2>
+                    <figure class="figure2">
+                        <img src="./assets/taças.png" alt="Foto café da manhã" class="fig-2">
+                    </figure>
+                </div>
+            </div>
+            <figure class="figure-1">
+                <img src="./assets/passarinhos.png" alt="Foto café da manhã" class="photo-distribution">
+            </figure>
+        </section>
+
+
+
+
+        <section class="section-2">
+            <figure class="figure-2">
+                <img src="./assets/hidromassagem.png" alt="foto-historia" class="photo-history">
+
+            </figure>
+            <div class="historia">
+                <h2 id="titulo-2">História</h2>
+                <p> A primeira geração da Posada Exemplo teve sua origem no Sr. José da Silva, hoje mais de 5 décadas
+                    depois, na terceira geração da família, se mantém ainda o ideal lá do início, uma linda pousada para
+                    ser um ambiente familiar. Um empreendimento que atravessou décadas, avós, pais e filhos. Muito tempo
+                    se passou e com uma tradição que passa de pai para filho, de mãe para filha, e assim perpetuando a
+                    memória da família Silva.
+
+                </p>
+
+            </div>
+
+        </section>
+        
+        <div class="container">
+            <section class="section-3">
+                <h2 id="titulo-3">Diferenciais</h2>
+        
+                <ul class="diferencias-lista">
+                    <li>Todos os chalés possuem decoração especial, além de uma pitada de charme e muito conforto.</li>
+                    <li>Devido ao charme e exclusividade das acomodações, a Pousada é muito procurada por casais em lua de mel ou para momentos especiais em família. A Pousada está cercada de bares, restaurantes, farmácias, mercados, e outras conveniências.</li>
+                </ul>
+            </section>
+        
+            <div class="carousel-container">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/almoço.jpg" class="d-block w-100" id="photo1" alt="almoco-casal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/cafédamanha.jpg" class="d-block w-100" id="photo2" alt="cafe-da-manha">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/por do sol.jpg" class="d-block w-100" id="photo3" alt="por-do-sol">
+                        </div>
+                    </div>
+        
+                    <!-- Controles do Carrossel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div>
+                <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='24' height='24'>
+                    <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
+                </svg>
+                <p>Rua das flores, nº 0 - Rio Grande do Sul</p>
+            </div>
+            <div>
+                <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='24' height='24'>
+                    <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
+                </svg>
+                <p>pousada@pousadaexemplo.com.br</p>
+            </div>
+            <div>
+                <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='24' height='24'>
+                    <path d="M16.57 22a2 2 0 0 0 1.43-.59l2.71-2.71a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0l-1.6 1.59a7.55 7.55 0 0 1-3-1.59 7.62 7.62 0 0 1-1.59-3l1.59-1.6a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0L2.59 6A2 2 0 0 0 2 7.43 15.28 15.28 0 0 0 6.3 17.7 15.28 15.28 0 0 0 16.57 22zM6 5.41 8.59 8 7.3 9.29a1 1 0 0 0-.3.91 10.12 10.12 0 0 0 2.3 4.5 10.08 10.08 0 0 0 4.5 2.3 1 1 0 0 0 .91-.27L16 15.41 18.59 18l-2 2a13.28 13.28 0 0 1-8.87-3.71A13.28 13.28 0 0 1 4 7.41zM20 11h2a8.81 8.81 0 0 0-9-9v2a6.77 6.77 0 0 1 7 7z"></path><path d="M13 8c2.1 0 3 .9 3 3h2c0-3.22-1.78-5-5-5z"></path>
+                </svg>
+                <p>(51)991010101</p>
+            </div>
+        </div>
+        
+        <footer id="final" class="footer">
+
+            <h3>Pousada Exemplo</h3>
+
+            <div id="copy">&copy; Copyright Karolline Dias</div>
+
+        </footer>
+    </div>
+        <script src="./script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

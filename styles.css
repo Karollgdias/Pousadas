@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body.global-styles {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(58,84,56);
+    background: linear-gradient(90deg, rgba(58,84,56,1) 0%, rgba(74,67,38,0.560749299719888) 4%, rgba(89,49,20,0) 8%, rgba(89,49,20,0) 92%, rgba(89,49,20,0.5635504201680672) 96%, rgba(58,84,56,1) 100%);
+    color: #ffff;
+    font-family: "Montserrat Alternates", sans-serif;
+    z-index: 1;
+    
+}
+.fadeIn {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+.fadeIn.active {
+    opacity: 1;
+}
+
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    margin-top: 42%;
+    margin-left: 90%;
+    z-index: 1; 
+}
+
+#carouselExampleAutoplaying {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-header {
+    position: relative;
+    background-image: url(./assets/arvore.jpg);
+    background-size: cover;
+    height: 220px;
+    padding-top: 28px;
+    max-width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.511);
+}
+
+.pousada {
+    font-family: "Satisfy", sans-serif;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.atalhos {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+
+}
+
+.atalhos ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Embed code", sans-serif;
+    font-style: oblique;
+
+}
+
+.atalhos ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.atalhos ul li a {
+    color: black;
+    cursor: pointer;
+    background: none;
+    text-shadow: 12px 12px 18px hsl(0, 0%, 3%);
+    font-size: 14px;
+    margin: 10px;
+    text-decoration: none;
+    transition: text-shadow 0, 1;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.atalhos ul li a:hover {
+    font-size: 16px;
+    text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.7);
+}
+
+.atalhos:visited {
+    color: black;
+}
+
+.section-1 {
+    display: flex;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.design-fashion {
+    flex: 1;
+    width: 40%;
+    padding: 5px 100px 0px 130px;
+    color: black;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+#titulo-1 {
+    font-size: 48px;
+    font-family: "Ephesis";
+    padding-right: 20px;
+    margin: 100px 50px 0px 20px;
+    border-bottom: 2px solid #908e49;
+
+}
+
+.sobre-nos {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.photo-distribution {
+    width: 100%;
+    max-width: 550px;
+    margin: 100px 140px 0px 5px;
+    border-radius: 5px;
+}
+
+
+.fig-2 {
+    max-width: 500px;
+    margin: 70px 160px;
+
+}
+
+.photo-history {
+    width: 100%;
+    max-width: 800px;
+    margin: 80px 80px 0px 110px;
+}
+
+.section-2 {
+    margin-top: 20px;
+    display: flex;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    flex-direction: row;
+}
+
+#titulo-2 {
+    padding-right: 10px;
+    margin: 10px 0px 10px 2px;
+    border-bottom: 2px solid #A35750;
+    font-size: 48px;
+    font-family: "Ephesis";
+}
+
+.historia {
+    flex: 1;
+    width: 38%;
+    padding: 50px 150px 0px 5px;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+#figure-2 {
+    color: black;
+    margin-left: 18%;
+}
+
+.photo-history {
+    width: 100%;
+    max-width: 450px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.carousel-container {
+    flex: 1;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.section-3 {
+    color: black;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-top: 100px;
+    flex: 1;
+    padding-right: 10px;
+}
+
+#titulo-3 {
+    border-bottom: 2px solid #A35750;
+    font-size: 48px;
+    font-family: "Ephesis";
+}
+
+.diferencias-lista {
+    list-style-type: none;
+    padding: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.diferencias-lista li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#final {
+    text-align: center;
+}
+
+.footer {
+
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.contact {
+    margin-left: 160px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./assets/fundo-contact.png);
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
+    padding: 8px;
+    max-width: 400px;
+    width: 80%;
+    /* Limita a largura para manter o conteúdo centralizado */
+    box-shadow: 2px 2px 3px 4px #77431c;
+    border-radius: 8px;
+   
+}
+
+.contact div {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    /* Alinha itens verticalmente no centro */
+    margin-bottom: 5px;
+    /* Adiciona espaçamento entre os itens */
+}
+
+.contact svg {
+    width: 20px;
+    margin-right: 10px;
+    /* Adiciona espaçamento entre a imagem e o texto */
+}
+
+.contact p {
+    color: black;
+    margin: 2px 0;
+    /* Adiciona espaçamento entre os parágrafos */
+}
+
+
+h3 {
+    font-family: "Satisfy", sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#copy {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-visible {
+    opacity: 1;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+    opacity: 1;
+}
+
+
+
+@media (max-width: 950px) {
+
+    .container {
+        display: block;
+
+    }
+
+    .pousada{
+        font-size: 60px;
+    }
+
+
+    .atalhos ul li a {
+        font-size: 10px;
+
+    }
+
+    .section-1 {
+        display: block;
+    }
+
+    #titulo-1 {
+        font-size: 22px;
+    }
+
+    .design-fashion {
+        padding: 5px 50px 0px 50px;
+        width: 95%;
+    }
+
+    .sobre-nos {
+        font-size: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .photo-distribution {
+        max-width: 280px;
+        margin: auto;
+        display: block;
+        width: 60%;
+        border-radius: 10px;
+    }
+
+    .fig-2{
+        max-width: 280px;
+        margin: auto;
+        display: block;
+        width: 90%;
+        border-radius: 10px;
+
+    }
+
+    #figure-1 {
+        margin: 15px 90px;
+        font-size: 10px;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .historia {
+        order: -1;
+        width: 95%;
+        padding: 5px 50px 0px 50px;
+        font-size: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .photo-history {
+        margin: auto;
+        display: block;
+        max-width: 280px;
+        width: 60%;
+        border-radius: 10px;
+
+    }
+
+    #titulo-2 {
+        font-size: 23px;
+    }
+
+    #titulo-3 {
+        font-size: 23px;
+        margin-left: 10%;
+        margin-top: 5px;
+    }
+
+    .diferencias-lista {
+        padding: 0 25px;
+        margin-left: 5%;
+        width: 95%;
+
+
+    }
+
+    .diferencias-lista li {
+        font-size: 15px;
+
+    }
+
+    footer {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .whatsapp {
+        position: fixed;
+        width: 60px;
+        margin-top: 148%;
+        margin-left: 82%;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .carousel-container {
+        margin: 20px 0;
+    }
+    .contact {
+        background-image: none;
+        box-shadow: none;
+        margin-left: 30px;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    
+}
