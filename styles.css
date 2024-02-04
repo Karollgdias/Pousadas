@@ -241,6 +241,7 @@ body.global-styles {
     padding: 0;
     list-style-type: none;
     padding: 0;
+    text-align: justify;
 }
 
 .diferencias-lista li {
